@@ -1,0 +1,23 @@
+name: AwakeCup
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    macOS: "13.0"
+  xcodeVersion: "15.0"
+  defaultConfig: Debug
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+targets:
+  AwakeCup:
+    type: application
+    platform: macOS
+    sources:
+      - path: AwakeCup
+    info:
+      path: AwakeCup/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.AwakeCup
+        MACOSX_DEPLOYMENT_TARGET: "13.0"
+        CODE_SIGN_STYLE: Automatic
