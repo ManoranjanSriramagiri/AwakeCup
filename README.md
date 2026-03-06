@@ -1,6 +1,15 @@
 # AwakeCup
 
-Menu bar app (macOS) that keeps your Mac awake — similar to Caffeine.
+Menu bar app (macOS) that keeps your Mac awake — a modern, open-source alternative to Caffeine.
+
+## Why AwakeCup over Caffeine?
+
+- **Open source & transparent** — fully auditable Swift code, no mystery binaries.
+- **Native SwiftUI** — built with `MenuBarExtra` (macOS 13+), no legacy Carbon/AppKit baggage.
+- **Timed durations** — pick 5m, 15m, 30m, 1h, 2h, or indefinite. Caffeine is all-or-nothing.
+- **Prevents both system & display sleep** — Caffeine only prevents system sleep by default.
+- **Lightweight** — no Electron, no background daemons, no analytics, no app store subscription.
+- **Build it yourself** — XcodeGen-based; clone, generate, run. You own the binary.
 
 ## What it does
 
